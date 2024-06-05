@@ -1,4 +1,4 @@
-import { Container, Text, VStack, Box, Code, Link, useColorMode, useColorModeValue } from "@chakra-ui/react";
+import { Container, Text, VStack, Box, Code, Link, useColorMode, useColorModeValue, Heading } from "@chakra-ui/react";
 import { FaTelegram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Index = () => {
@@ -9,6 +9,9 @@ const Index = () => {
   return (
     <Container centerContent maxW="100vw" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg={bgColor} color={textColor} onClick={toggleColorMode}>
       <VStack spacing={4} align="start">
+        <Heading as="h1" fontFamily="'Press Start 2P', cursive" mb={4}>
+          0KB.ORG
+        </Heading>
         <Box>
           <Code p={4} borderRadius="md" w="full">
             <Text>{`{`}</Text>
