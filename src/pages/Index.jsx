@@ -9,8 +9,8 @@ const Index = () => {
   return (
     <Container centerContent maxW="100vw" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg={bgColor} color={textColor} onClick={toggleColorMode}>
       <VStack spacing={4} align="start">
-        <Box>
-          <Code p={4} borderRadius="md" w="80%">
+        <Box w="80%" p={8}>
+          <Code p={4} borderRadius="md" w="full">
             <Text>{`{`}</Text>
             <Text pl={4}>{`"0KB.ORG": {`}</Text>
             <Text pl={8}>{`"error": false,`}</Text>
