@@ -7,7 +7,7 @@ const Index = () => {
   const textColor = useColorModeValue("gray.100", "gray.100");
 
   return (
-    <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg={bgColor} color={textColor} onClick={toggleColorMode}>
+    <Container centerContent maxW="100vw" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center" bg={bgColor} color={textColor} onClick={toggleColorMode}>
       <VStack spacing={4} align="start">
         <Box>
           <Code p={4} borderRadius="md" w="full">
